@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color:#F7F7FE;
+    margin: 0;
+    padding: 0;       
+    display: flex; 
+    justify-content: center;
+    
+    
+   
+}
+
+.container{
+    background-color:#D4DDEE;
+    display: flex; 
+    align-items: center;    
+    justify-content: center;        
+    width: 86%;   
+    height: 100vh;
+
+    margin-top: 10px;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.principal{
+    background: #FFFFFF;
+    width: 687px;
+    height: 360px;
+
+    display: flex;    
+    justify-content: center;       
+    align-items: center;     
+    flex-direction: column;  
+    
+    margin-left: 50px;
+    margin-bottom: 25px;
+    
+    
+    
+}
+
+.container2{
+    width: 310px;
+    height: 360px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.account{
+    background: #E8EEFA;
+    border: 3px solid white ;
+    
+    display: flex;    
+    align-items: none;  
+    justify-content: none;    
+    flex-direction: column; 
+
+}
+
+#account1{
+    height: 270px;
+}
+
+#account2{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    margin-top: 10px;
+    height: 80px;
+    
+
+}
+
+#acesse{
+    text-align: center;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.email{
+    margin-bottom: 5px;
+}
+
+.login{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.check{
+    display: flex;
+    
+}
+
+
+.checktext{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    
+    
+}
+
+#checksaved{
+    margin-left: 30px;
+}
+
+.alert{
+    font-size: 12px;
+    margin-left: 58px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.button{
+    margin-left: 58px;
+    width: 58px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+#linkacesso{
+    text-align: center;
+}
+
+.link{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.rodape{
+    background:#BCCDE9;  
+    position:absolute;  
+    bottom:0;
+    width: 74.7%;  
+    margin-bottom: 100px;
+
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+    margin-left: 51px; 
+      
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        width: 48%;
+}
+
+#linkentrar{
+    font-weight: bold;
+}
+
+.textonegrito{
+    font-weight: bold;
+}
+
+input[type=text] {
+    height: 28px;
+}
+
+input[type=password] {
+    height: 28px;
+}

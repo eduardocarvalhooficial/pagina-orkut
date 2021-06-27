@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orkut</title>
+
+    <link rel="icon" type="imagem/png" href="/img/icone.ico" />
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="principal">
+            <img src="./img/orkut-nome-removebg-preview.png" alt="Imagem Principal do Orkut">            
+                <p class="mensagem"> <font class="textonegrito" color="#D44897">Conecta-se</font> aos seus amigos e familiares usando recados e mensagens instantâneas</p>
+                <p class="mensagem"><font class="textonegrito" color="#D44897">Conheça</font> novas pessoas através de amigos de seus amigos e comunidades</p>
+                <p class="mensagem"> <font class="textonegrito" color="#D44897">Compartilhe</font> seus vídeos, fotos e paixões em um só lugar</p>
+            
+        </div>
+        <div class="container2">
+            <div id="account1" class="account">
+                <p id="acesse">Acessa o Orkut com a sua conta</p>
+               <div class="login">
+                    <p class="email">E-mail: <input id="email1" type="text" name="email" size="22"/></p>
+                    <p class="senha"> Senha: <input id="senha1" type="password" name="senha" size="22"/></p>
+                    
+               </div>
+                <div class="check">
+                    <input id="checksaved" type="checkbox" name="checksaved" size="40"  />
+                    <p class="checktext">Salvar as minhas informações neste computador</p>
+                   
+                </div>
+                <p class="alert">Não use em computadores públicos. [?]</p>
+                <button role="button" class="button" onclick="validaCampos();validate()">Login</button>
+                <a id="linkacesso" class="link" href="#">Não consegue acessar a sua conta?</a>
+            </div>
+            <div id="account2"  class="account">
+                <p id="account2text">Ainda não é membro?</p>
+                <a class="link" id="linkentrar" href="#">ENTRAR JÁ</a>
+            </div>
+        </div>
+        <footer class="rodape">
+            <nav class="menu">© 2017 Orkut -          
+             <p> <a class="link" href="#">Sobre o Orkut</a> - </p> 
+             <p>   <a class="link" href="#">Centro de Segurança</a> - </p> 
+             <p>   <a class="link" href="#">Privacidade</a> - </p> 
+             <p>        <a class="link" href="#">Termos</a> </p> 
+            </nav>
+         </footer>
+       
+    </div>
+   
+    
+</body>
+<script src="js/script.js"></script>
+
+</html>

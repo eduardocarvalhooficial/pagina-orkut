@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+    .container2{
+        margin-right: 10px;
+    }
+    .principal {
+        display: none;
+    }
+    .rodape {
+        display: none;
+    }
+}
+
+
+@media (max-width: 300px) {
+   #account2text{
+    margin-top: 35px;
+   }
+  
+}
+
+@media (max-width: 1300px) {
+    .rodape {
+        display: none;
+    }
+   
+ }
+ 
